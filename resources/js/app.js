@@ -2,8 +2,9 @@ require('./bootstrap');
 
 import Vue from 'vue';
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+import App from '@components/App';
 
 const app = new Vue({
     el: '#app',
+    render: h => h(App)
 });
