@@ -33,6 +33,7 @@ mix.webpackConfig({
     }
 });
 
+mix.disableNotifications();
 
 if (mix.inProduction()) {
     mix.version();
