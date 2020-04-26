@@ -94,14 +94,8 @@
 </template>
 
 <script>
-    import BasePanel from "./BasePanel";
-    import BaseButton from "./BaseButton";
-    import BaseInput from "./BaseInput";
-    import BaseSelect from "./BaseSelect";
-    import BaseCheckbox from "./BaseCheckbox";
 
     export default {
-        components: {BasePanel, BaseButton, BaseInput, BaseSelect, BaseCheckbox},
         data() {
             return {
                 name: '',
