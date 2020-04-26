@@ -1,9 +1,12 @@
 module.exports = {
-  theme: {
-    extend: {},
-  },
-  variants: {},
-  plugins: [
-      require('@tailwindcss/custom-forms'),
-  ],
+    theme: {
+        fontFamily: {
+            'roboto': ['Roboto'],
+        },
+        extend: {},
+    },
+    variants: {},
+    plugins: [
+        require('@tailwindcss/custom-forms'),
+    ],
 };
