@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46972866-cc4d-4038-9c9c-7d98be90d880" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/BaseButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/BasePanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BaseCheckbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BaseInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/components/BaseSelect.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,10 @@
       <updated>1587409406170</updated>
       <workItem from="1587409407957" duration="7431000" />
       <workItem from="1587442315094" duration="2138000" />
-      <workItem from="1587452015313" duration="2370000" />
+      <workItem from="1587452015313" duration="4441000" />
+      <workItem from="1587540813518" duration="38000" />
+      <workItem from="1587542793451" duration="94000" />
+      <workItem from="1587924412484" duration="2196000" />
     </task>
     <servers />
   </component>
@@ -181,9 +184,9 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="468" y="191" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1587451897516" />
-    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1587455540098">
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1587456760527">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1587455540098" />
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1587456760527" />
   </component>
 </project>

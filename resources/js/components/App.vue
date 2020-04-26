@@ -80,8 +80,14 @@
         </section>
 
         <section class="m-16">
-            <h1 class="text-5xl font-semibold mb-8">Input</h1>
+            <h1 class="text-5xl font-semibold mb-8">From elements</h1>
+            <base-panel>
+                <base-input v-model="name" label="Name" class="mb-4"></base-input>
+                <base-input v-model="dateOfBirth" label="Date of birth" type="date"></base-input>
+                <base-select v-model="plan" :options="availablePlans" label="Select a plan"></base-select>
+                <base-checkbox v-model="subscribeToNewsletter" label="Subscribe me to your monthly newsletter"></base-checkbox>
 
+            </base-panel>
         </section>
 
     </div>
@@ -90,8 +96,25 @@
 <script>
     import BasePanel from "./BasePanel";
     import BaseButton from "./BaseButton";
+    import BaseInput from "./BaseInput";
+    import BaseSelect from "./BaseSelect";
+    import BaseCheckbox from "./BaseCheckbox";
 
     export default {
-        components: {BasePanel, BaseButton}
+        components: {BasePanel, BaseButton, BaseInput, BaseSelect, BaseCheckbox},
+        data() {
+            return {
+                name: '',
+                dateOfBirth: '',
+                plan: 'starter',
+                availablePlans: [
+                    { value: 'free', name: 'Free'},
+                    { value: 'starter', name: 'Starter ($5/month)'},
+                    { value: 'premium', name: 'Premium ($10/month)'},
+                    { value: 'business', name: 'Business ($15/month)'}
+                ],
+                subscribeToNewsletter: false
+            }
+        }
     }
 </script>
